@@ -22,6 +22,7 @@ int ranking[MAX_LINES];
 char dictionary[MAX_WORDS][WORD_LEN];
 char forbidden_letter[3];
 bool skip = false;
+int git = 0;
 
 //関数プロトタイプ
 int stricmp(const char *a, const char *b);
