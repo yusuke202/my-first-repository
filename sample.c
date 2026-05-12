@@ -91,7 +91,7 @@ int load_words(char dictionary[][WORD_LEN]) {
 }
 
 //列挙体
-enum Difficulty{EASY = 1, NORMAL = 2, HARD =3};
+
 
 // 難易度選択
 typedef struct {
