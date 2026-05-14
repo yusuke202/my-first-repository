@@ -36,6 +36,7 @@ void swap(int *x, int *y);
 void print_ranking(int ranking[]);
 void timeout(int sig);
 void word_chain_game();
+void git_method1();
 
 // 大文字小文字を無視して比較
 int stricmp(const char *a, const char *b) {
