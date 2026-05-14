@@ -393,7 +393,7 @@ void word_chain_game(rule player) {
             }
 
             if(forbidden_letter_flag == true){
-                CHANGE_SCORE(-1);
+                CHANGE_SCORE(-3);
                 continue;
             }
         }
