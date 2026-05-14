@@ -272,7 +272,7 @@ void word_chain_game(rule player) {
     while ((cha = getchar()) != '\n');
 
     signal(SIGALRM, timeout);
-    alarm(120);
+    alarm(90);
 
     while (true) {
 
